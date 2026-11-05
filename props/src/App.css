@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+h1 {
+  margin-bottom: 35px;
+  color: #1b1717;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin: 0;
+  color: #c01a1a;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #958585;
+}
+
+.card p:last-child {
+  font-weight: bold;
+  color: #4CAF50;
+}
