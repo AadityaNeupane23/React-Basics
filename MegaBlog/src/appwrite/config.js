@@ -125,6 +125,13 @@ export class Service {
       fileId,
     });
   }
+
+  getFileView(fileId) {
+    return this.bucket.getFileView({
+      bucketId: conf.appwriteBucketId,
+      fileId,
+    });
+  }
 }
 
 const service = new Service();
